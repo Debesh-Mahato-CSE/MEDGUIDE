@@ -116,9 +116,6 @@ const Register = () => {
                   Full Name
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <FaUser className="text-gray-400" />
-                  </div>
                   <input
                     type="text"
                     name="fullName"
@@ -136,9 +133,6 @@ const Register = () => {
                   Email Address
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <FaEnvelope className="text-gray-400" />
-                  </div>
                   <input
                     type="email"
                     name="email"
@@ -157,9 +151,6 @@ const Register = () => {
                 Phone Number
               </label>
               <div className="relative">
-                <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                  <FaPhone className="text-gray-400" />
-                </div>
                 <input
                   type="tel"
                   name="phone"
@@ -179,9 +170,6 @@ const Register = () => {
                   Password
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <FaLock className="text-gray-400" />
-                  </div>
                   <input
                     type={showPassword ? 'text' : 'password'}
                     name="password"
@@ -210,9 +198,6 @@ const Register = () => {
                   Confirm Password
                 </label>
                 <div className="relative">
-                  <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                    <FaLock className="text-gray-400" />
-                  </div>
                   <input
                     type={showPassword ? 'text' : 'password'}
                     name="confirmPassword"
